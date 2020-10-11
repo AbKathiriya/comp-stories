@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>F52B8AA3-E95A-4686-AFEB-51F7FE1010C4</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Scheduling-(Bulk-Non-Premium)---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Student-Bulk-Search-Results" transform="translate(-960.000000, -441.000000)" fill="#1D1D1D">
+            <g id="Stacked-Group" transform="translate(944.000000, 225.000000)">
+                <g transform="translate(0.000000, 204.000000)" id="Component/Booking-Details-List">
+                    <g>
+                        <g id="Stacked-Group" transform="translate(15.000000, 11.000000)">
+                            <g id="Components/Horizontal-List-with-icon-(Small)">
+                                <g id="Components/Horizontal-List-with-icon-(Small---Medium-Text)">
+                                    <g id="Icon/Arrow-Down" transform="translate(0.000000, 1.000000)">
+                                        <path d="M14,6 L2,6 L2,15 L14,15 L14,6 Z M11,1 L14,1 C14.5522847,1 15,1.44771525 15,2 L15,15 C15,15.5522847 14.5522847,16 14,16 L2,16 C1.44771525,16 1,15.5522847 1,15 L1,2 C1,1.44771525 1.44771525,1 2,1 L5,1 L5,0.5 C5,0.223857625 5.22385763,5.07265313e-17 5.5,0 C5.77614237,-5.07265313e-17 6,0.223857625 6,0.5 L6,1 L10,1 L10,0.5 C10,0.223857625 10.2238576,5.07265313e-17 10.5,0 C10.7761424,-5.07265313e-17 11,0.223857625 11,0.5 L11,1 Z M9,10 L13,10 L13,14 L9,14 L9,10 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
