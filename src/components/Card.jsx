@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Button from "./Button.jsx";
 import Close from "../icons/CloseIcon";
+import IconImage from "./IconImage";
 
 const CardWrapper = styled.div`
   border: 1px solid #b4b4b4;
@@ -61,10 +62,6 @@ const CardBody = styled.div`
   text-align: left;
 `;
 
-const StyledImg = styled.img`
-  margin: ${(props) => (props.margin ? props.margin : "")};
-`;
-
 const Header = (props) => {
   let lessonData = props.lesson ? props.lesson : null;
   let suggestionData =
@@ -72,7 +69,7 @@ const Header = (props) => {
   return props.lesson ? (
     <CardHeader>
       <CardHeading>
-        <StyledImg
+        <IconImage
           src={suggestionData ? suggestionData.icon : lessonData.icon}
           alt="Icon"
           margin="5px 10px 5px 0"
@@ -89,7 +86,7 @@ const Header = (props) => {
   ) : (
     <CardHeader>
       <CardHeading>
-        <StyledImg
+        <IconImage
           src="./icon/Warning.svg"
           alt="Warning"
           margin="5px 10px 5px 0"
@@ -112,7 +109,7 @@ const Body = (props) => {
     <CardBody>
       {suggestionData && (
         <CardHeading>
-          <StyledImg src={lessonData.icon} alt="Icon" margin="5px 10px 5px 0" />
+          <IconImage src={lessonData.icon} alt="Icon" margin="5px 10px 5px 0" />
           {lessonData.date}
         </CardHeading>
       )}
@@ -122,7 +119,7 @@ const Body = (props) => {
           ? ` (${props.lesson.noOflessons} lessons)`
           : null}
         {props.lesson.info ? (
-          <StyledImg src="./icon/Info.svg" alt="Info" margin="0 10px" />
+          <IconImage src="./icon/Info.svg" alt="Info" margin="0 10px" />
         ) : null}
         {props.lesson.info}
       </div>
