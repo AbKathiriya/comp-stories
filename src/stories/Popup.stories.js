@@ -16,7 +16,7 @@ storiesOf("PopUp", module).add("default", () => {
     };
 
     render() {
-      const titleNodeHtml = <div style={{ fontSize: "20px", color: "#d84e55" }}>Enter Details</div>;
+      const titleNodeHtml = <div style={{ fontSize: "20px", color: "#eb5b63" }}>Enter Details</div>;
       return this.state.isOpen && (
         <Popup onClose={this.onClose} titleNode={titleNodeHtml}>
           <div>Add your Custom component here..</div>

@@ -45,7 +45,7 @@ const Popup = (props) => {
             {props.titleNode}
             {
               props.showCloseIcon && (
-                <Close color="#d84e55" height="12px" onClick={props.onClose} />
+                <Close color="#eb5b63" height="12px" onClick={props.onClose} />
               )
             }
           </div>
