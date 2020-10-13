@@ -31,7 +31,7 @@ const RadioButtonInput = styled.input`
 
   &:hover ~ ${RadioButtonLabel} {
     background: #fff;
-    border-color: #d84e55;
+    border-color: #eb5b63;
 
     &::after {
       content: "";
@@ -40,13 +40,13 @@ const RadioButtonInput = styled.input`
       width: 12px;
       height: 12px;
       margin: 4px;
-      background: #d84e55;
+      background: #eb5b63;
     }
   }
 
   &:checked + ${RadioButtonLabel} {
     background: #fff;
-    border: 1px solid #d84e55;
+    border: 1px solid #eb5b63;
 
     &::after {
       content: "";
@@ -55,7 +55,7 @@ const RadioButtonInput = styled.input`
       width: 12px;
       height: 12px;
       margin: 4px;
-      background: #d84e55;
+      background: #eb5b63;
     }
   }
 `;
