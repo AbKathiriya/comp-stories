@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StyledSvg = styled.svg`
   margin: ${(props) => (props.margin ? props.margin : "")};
+  cursor: pointer;
 `;
 
 const Close = (props) => {
